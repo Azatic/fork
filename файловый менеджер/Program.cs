@@ -16,7 +16,7 @@ namespace файловый_менеджер
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new парол());
+            Application.Run(new Books());
         }
     }
 }

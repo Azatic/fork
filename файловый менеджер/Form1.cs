@@ -136,7 +136,7 @@ namespace файловый_менеджер
             string delname = путь1;
             string res;
             string zipfile;
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            //Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             using (ZipFile zip = new ZipFile(Encoding.UTF8))
             {
                 zip.CompressionLevel = Ionic.Zlib.CompressionLevel.BestSpeed;
